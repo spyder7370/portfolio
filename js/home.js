@@ -29,7 +29,6 @@
 	});
 	
 	$('#resume-button').click(function(){
-		const url = 'https://drive.google.com/file/d/1QkiWsE9dhRNDdHCerhKHfk-6IXKH0Q2U/view?usp=sharing';
-		window.open(url, '_blank');
+	    window.open('https://drive.google.com/file/d/1QkiWsE9dhRNDdHCerhKHfk-6IXKH0Q2U/view?usp=sharing', '_blank');
 	});
 })(jQuery);
